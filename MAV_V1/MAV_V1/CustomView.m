@@ -16,7 +16,7 @@ int curY;
 
 -(void) touchesBegan: (NSSet *) touches withEvent: (UIEvent *) event
 {
-    }
+}
 
 - (void) touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
 {
@@ -73,7 +73,7 @@ int curY;
     
     CGContextRef ctx = UIGraphicsGetCurrentContext();
     CGContextSetFillColorWithColor(ctx, [[UIColor greenColor] CGColor]);
-    CGContextFillEllipseInRect(ctx, CGRectMake(curX - 100, curY - 100 , 200 , 200));
+    CGContextFillEllipseInRect(ctx, CGRectMake(curX - 50, curY - 50 , 100 , 100));
     
     }
 

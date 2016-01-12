@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB20E1101C44ED6500B5C490 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB20E10F1C44ED6500B5C490 /* CoreMotion.framework */; };
 		CB241F271C3E391E00099C72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB241F261C3E391E00099C72 /* main.m */; };
 		CB241F2A1C3E391E00099C72 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB241F291C3E391E00099C72 /* AppDelegate.m */; };
 		CB241F2D1C3E391E00099C72 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB241F2C1C3E391E00099C72 /* ViewController.m */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CB20E10F1C44ED6500B5C490 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		CB241F221C3E391E00099C72 /* MAV_V1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAV_V1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB241F261C3E391E00099C72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CB241F281C3E391E00099C72 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB20E1101C44ED6500B5C490 /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +87,7 @@
 		CB241F191C3E391E00099C72 = {
 			isa = PBXGroup;
 			children = (
+				CB20E10F1C44ED6500B5C490 /* CoreMotion.framework */,
 				CB241F241C3E391E00099C72 /* MAV_V1 */,
 				CB241F3E1C3E391E00099C72 /* MAV_V1Tests */,
 				CB241F491C3E391E00099C72 /* MAV_V1UITests */,
@@ -504,6 +508,7 @@
 				CB241F511C3E391E00099C72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB241F521C3E391E00099C72 /* Build configuration list for PBXNativeTarget "MAV_V1Tests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +517,7 @@
 				CB241F541C3E391E00099C72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB241F551C3E391E00099C72 /* Build configuration list for PBXNativeTarget "MAV_V1UITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +526,7 @@
 				CB241F571C3E391E00099C72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

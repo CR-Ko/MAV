@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)theSwitch:(id)sender;
+
+@property (weak, nonatomic) IBOutlet UILabel *infoLabel;
+
 
 @end
 
